@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Introdução HTML na Prática</h1>
+    <hr>
+    <ul>
+        <li><a href="#Estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#Falando">Falando sobre Tags</a></li>
+        <li><a href="#atributo">Atributos das Tags</a></li>
+        <li><a href="#texto">Textos</a></li>
+        <li><a href="#lista">Listas ordenadas e não ordenadas</a></li>
+        <li><a href="#link">Links</a></li>
+        <li><a href="#exemplo">Exemplos</a></li>
+    </ul>
+    <h2 id="Estrutura">Estrutura Básica do HTML</h2>
+    <p>&lt;html&gt;&lt;/html&gt; &mdash; Tem o objetivo de marcar e formatar o conteúdo da página web informando ao navegador como exibir e interpretar a informação. </p>
+    <p>&lt;head&gt;&lt;/head&gt; &mdash; Serve como cabeçalho de um documento contendo metadados (informações sobre a página) que não são exibidos visualmente na tela, mas são essenciais para navegadores e motores de busca.</p>
+    <p>&lt;body&gt;&lt;/body&gt; &mdash; Contém e exibe todo o conteúdo vísivel de uma página HTML como texto, imagens, links e outros elementos que o usuário interagirá.</p>
+    <p>&lt;title&gt;&lt;/title&gt; &mdash; Define o título de uma página web, que aparece na barra de abas do navegador e nos resultados de pesquisa</p>
+    <p>&lt;hr&gt; &mdash; Serve para inserir uma linha horizontal que representa uma quebra temática ou uma divisão de conteúdo em uma página web, como uma mudança de tópico ou cena. </p>
+    <p>&lt;small&gt;&lt;/small&gt; &mdash; Diminui o tamanho da fonte de um texto.</p>
+    <h2 id="Falando">Falando sobre Tags</h2>
+    <p>&lt;i&gt;&lt;/i&gt; &mdash; Exibe o texto em itálico.</p>
+    <p>&lt;strong&gt;&lt;/strong&gt; &mdash; Indica que o texto contido nela tem grande importância, ênfase ou seriedade.</p>
+    <p>&lt;input&gt; &mdash; Cria campos de entrada de dados em um formulário ou página web.  </p>
+    <p>&lt;img&gt; &mdash; Exibe imagens numa página HTML. </p>
+    <h2 id="atributo">Atributos das Tags</h2>
+    <p>Atributos palavras-chave adicionadas a uma tag de abertura para fornecer informações adicionais ou controlar o comportamento de um elemento, funcionando como modificadores que definem a função ou a aparência de um elemento.</p>
+    <p>&lt;input&gt; &mdash; Possui atributos para identificar a entrada com exemplo &lt;input type="text"&gt; que disponibiliza um campo para escrever texto.</p>
+    <p>&lt;img&gt; &mdash; Exemplo de uso &lt;img src="arquivo/caminho"&gt;</p>
+    <p>id="titulo" &mdash; Define um identificador único para um elemento e serve para aceder, estilizar ou referenciar esse elemento específico no documento. Consegue chamar usando o símbolo de # em CSS e para criar links de âncora para partes específicas de uma página. </p>
+    <p>style="color: blue" &mdash; Aplica um estilo diretamente em um elemento HTML.</p>
+    <p>class="titulo" &mdash; Agrupa elementos que partilham características semelhantes e aplicar estilos ou manipulações em grupo através de CSS ou JavaScript. Ao atribuir a mesma classe a múltiplos elementos, você pode definir um estilo para essa classe uma vez e fazê-lo ser aplicado a todos os elementos que a possuem, tornando o código mais eficiente e reutilizável. </p>
+    <p>width &mdash; Largura.</p>
+    <h2 id="texto">Textos</h2>
+    <p>&lt;h1&gt;&lt;/h1&gt; &mdash; Define o título principal de uma página da web, destacando o tema central do conteúdo para os usuários e os motores de busca e varia entre h1-h6 quanto maior o número menor o tamanho da letra.</p>
+    <p>&lt;p&gt;&lt;/p&gt; &mdash; Define um parágrafo de texto.</p>
+    <p>&lt;blockquote&gt;&lt;/blockquote&gt; &mdash; Marca e destaca citações longas de outra fonte, isolando-as do restante do conteúdo da página.</p>
+    <p>&lt;u&gt;&lt;/u&gt; &mdash; Sublinha um texto</p>
+    <p>&lt;mark&gt;&lt;/mark&gt; &mdash; Destacar e marcar trechos de texto dentro de um documento, similar a um marca-texto físico.</p>
+    <p>&lt;sup&gt;&lt;/sup&gt; &mdash; Exibe texto como sobrescrito, ou seja, texto menor e alinhado na parte superior do texto principal. Ela é usada para formatos como expoentes (ex: x²).</p>
+    <h2 id="lista">Listas Ordenadas e não ordenadas</h2>
+    <p>&lt;ol&gt;&lt;/ol&gt; &mdash; Cria uma lista ordenada, ou seja, uma lista onde a ordem dos itens é importante e é exibida com marcadores como números.</p>
+    <p>&lt;ul&gt;&lt;/ul&gt; &mdash; Cria uma lista não ordenada, ou seja, uma lista de itens que não tem uma ordem específica, sendo apresentada com marcadores.</p>
+    <p>&lt;li&gt;&lt;/li&gt; &mdash; serve para definir cada item individual dentro de uma lista em HTML, sendo utilizada tanto em listas ordenadas quanto em listas não ordenadas para agrupar conteúdos relacionados em uma estrutura de lista.</p>
+    <h2 id="link">Links</h2>
+    <p>&lt;a&gt;&lt;/a&gt; &mdash; Cria hiperlinks que direcionam o usuário para outra página web, um recurso específico na mesma página ou para outros recursos como imagens e arquivos. &lt;a href="link" target="_blank/_self"&gt;&lt;/a&gt; &mdash; _blank abre uma nova guia,_self fica na mesma guia.</p>
+    <p>&lt;a href="#nome_id"&gt;link&lt;/a&gt; &mdash; Cria um link que leva ao id. </p>
+    <h2 id="exemplo">EXEMPLOS</h2>
+    <p><u>Texto sublinhado</u></p>
+    <i>italico</i> <br> <br>
+    <del>del</del> <br> <br>
+    <em>em</em> <br> <br>
+    <strong>Negrito</strong>
+    <p><mark>Texto Marcado</mark></p>
+    <p>Texto elevado<sup>2</sup></p>
+    <blockquote>Citação</blockquote>
+    <input type="text" placeholder="Input de texto"> <br> <br>
+    <input type="number" placeholder="Input de number"> <br> <br>
+    <img width="300" src="https://comandogeek.com.br/blog/wp-content/uploads/2025/01/Design-sem-nome-2025-01-22T132141.140-1024x536.png" alt="Exemplo imagem">
+    <ul>
+        <li>Item </li>
+        <li>Item </li>
+        <li>Item </li>
+    </ul>
+    <ol>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+    <a href="https://github.com/WhiteFlowey" target="_blank">GITHUB</a>
+    <br> <br>
+    <small>Tag small</small>
+</body>
+</html>
