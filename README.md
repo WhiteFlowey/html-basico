@@ -1,6 +1,6 @@
 # 🌐 Desafio de Projeto: Introdução ao HTML na Prática  
 
-Bem-vindo(a) ao meu primeiro projeto em **HTML básico**! 🎉  
+Bem-vindo(a) ao meu projeto de **HTML básico**! 🎉  
 Este repositório faz parte de um **desafio de projeto** com o objetivo de aplicar, na prática, os conceitos fundamentais aprendidos sobre **estrutura, tags e atributos do HTML**.  
 
 ---
