@@ -22,8 +22,4 @@ O site desenvolvido aqui é simples, mas reúne diversos recursos importantes:
 - **HTML5**  
 - *(Sem uso de CSS ou JavaScript neste desafio — foco total na base do HTML!)*  
 
----
-
-## 📂 Estrutura de Arquivos  
-
-
+--- 
